@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: aqua;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+span {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #ff6961;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
